@@ -1,0 +1,20 @@
+package codejava;
+import java.util.Scanner;
+public class w1p2 {
+    public static void main(String[] args) {
+        System.out.println("triangle:");
+        Scanner scan = new Scanner(System.in);
+        int n1=scan.nextInt();
+        int n2=scan.nextInt();
+        int n3=scan.nextInt();
+        int sum;
+        sum=n1+n2+n3;
+        if(sum ==180) {
+            System.out.println("formed triangle");
+        }
+            else{
+                System.out.println("cannot be form triangle");
+
+        }
+    }
+}
