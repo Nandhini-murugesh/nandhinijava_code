@@ -1,0 +1,15 @@
+package mathprg;
+
+public class kprb {
+    public static void main(String [] args){
+        int A=2;
+    int B=3;
+    int res=A;
+    for(int i=1;i<B;i++){
+        res=res*A;
+       // System.out.println(res);
+
+    }
+    System.out.print(res%10);
+    }
+}
